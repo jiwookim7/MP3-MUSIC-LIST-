@@ -1,8 +1,8 @@
 /*****************************************************************************************************
-Programmer's name: Diwash Biswa
-Class: CptS 122 Spring 2018
-Programming Assignment: PA3 Digital Music Manager & Doubly Linked Lists – Part II
-Date: 2/7/18
+Programmer's name: Jiwoo Kim
+Class: CptS 122 Spring 2021
+Programming Assignment: PA3 Digital Music Manager & Doubly Linked Lists ï¿½ Part II
+Date: 2/7/21
 Description: can be found at this link: http://eecs.wsu.edu/~aofallon/cpts122/progassignments/PA3.htm
 
 Comments: Hey Ryan, I have made some changes to my code according to your comment in Osble. Some part
