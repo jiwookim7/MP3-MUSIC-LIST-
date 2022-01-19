@@ -155,7 +155,7 @@ void load(Node **pList)
 	fclose(infile);
 }
 
-//The “store” command writes the current records, in the dynamic doubly linked list, 
+//command writes the current records, in the dynamic doubly linked list, 
 //to the musicPlayList.csv file. The store will completely overwrite the previous 
 //contents in the file.
 void store(Node *pList)
@@ -176,7 +176,7 @@ void store(Node *pList)
 
 }
 
-//The “rate” command must allow the user to assign a value of 1 – 5 to a song; 
+//command must allow the user to assign a value of 1 ?5 to a song; 
 //1 is the lowest rating and 5 is the highest rating. The rating will replace the previous rating.
 void rate(Node **pList)
 {
@@ -200,7 +200,7 @@ void rate(Node **pList)
 
 }
 
-//The “display” command prints records to the screen. This command must support two 
+//command prints records to the screen. This command must support two 
 //methods, one of which is selected by the user :
 //1. Print all records.
 //2. Print all records that match an artist.
@@ -244,7 +244,7 @@ void display(Node *pList)
 	}
 }
 
-//The “edit” command must allow the user to find a record in the list by artist.
+//command must allow the user to find a record in the list by artist.
 //If there are multiple records with the same artist, then your program must 
 //prompt the user which one to edit. The user may modify all of the attributes 
 //in the record. 
@@ -347,7 +347,7 @@ void edit_playlist(Node *pList)
 	}
 }
 
-//The “insert” command must prompt the user for the details of a new record. 
+//command must prompt the user for the details of a new record. 
 //The prompt must request the artist name, album title, song title, genre,
 //song length, number of times played, and rating. The new record must be 
 //inserted at the front of the list.
@@ -404,7 +404,7 @@ void insert(Node **pList)
 
 }
 
-//The “delete” command must prompt the user for a song title, 
+//command must prompt the user for a song title, 
 //and remove the matching record from the list. If the song title 
 //does not exist, then the list remains unchanged.
 void delete(Node **pList)
@@ -429,7 +429,7 @@ void delete(Node **pList)
 }
 
 /*
-The “sort” command must prompt the user for 4 different methods to sort the records in the list. These include:
+command must prompt the user for 4 different methods to sort the records in the list. These include:
 1. Sort based on artist (A-Z)
 2. Sort based on album title (A-Z)
 3. Sort based on rating (1-5)

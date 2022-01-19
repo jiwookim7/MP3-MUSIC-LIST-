@@ -1,13 +1,10 @@
 /*****************************************************************************************************
 Programmer's name: Jiwoo Kim
 Class: CptS 122 Spring 2021
-Programming Assignment: PA3 Digital Music Manager & Doubly Linked Lists � Part II
-Date: 2/7/21
+Programming Assignment: PA3 Digital Music Manager & Singly Linked Lists � Part I Date: 2/7/21
 Description: can be found at this link: http://eecs.wsu.edu/~aofallon/cpts122/progassignments/PA3.htm
 
-Comments: Hey Ryan, I have made some changes to my code according to your comment in Osble. Some part
-of the program still crashes when I run. However, can you grade for the things I've included here? Thanks
-so much.
+Comments:
 Some changes include:
 	* changes in insert function
 	* changes in delete function
